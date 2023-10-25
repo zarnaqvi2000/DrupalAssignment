@@ -1,0 +1,16 @@
+custom_api.get_nodes:
+  path: '/custom-api/nodes'
+  defaults:
+    _controller: '\Drupal\movie\Controller\CustomApiController::getNodes'
+    _title: 'Custom API - Nodes'
+  requirements:
+    _permission: 'access content'
+ 
+
+custom_api.get_nodes_by_category:
+  path: '/custom-api/nodes-by-category/{category}'
+  defaults:
+    _controller: '\Drupal\movie\Controller\CustomApiController::getNodesByCategory'
+    _title: 'Custom API - Nodes by Category'
+  requirements:
+    _permission: 'access content'

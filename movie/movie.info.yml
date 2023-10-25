@@ -1,0 +1,7 @@
+name: 'Custom Get API for Movie Page'
+type: module
+description: 'Custom API module for fetching nodes of a specific content type and Give to drupal.'
+core_version_requirement: ^9
+package: Custom
+dependencies:
+  - drupal:rest:rest.resource:custom_api_nodes

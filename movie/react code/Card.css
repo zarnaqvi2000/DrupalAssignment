@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    /* background-color: #297070; */
+}
+
+.mainDiv{
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+.card-div{
+    border: 2px solid #8b5a5a;
+    display: inline-block;
+    margin: 20px;
+    padding: 52px;
+    width: 68%;
+    border-radius: 12%;
+
+}
