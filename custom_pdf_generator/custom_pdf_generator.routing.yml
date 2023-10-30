@@ -1,0 +1,19 @@
+custom_pdf_generator.api:
+  path: '/custom-pdf-api'
+  defaults:
+    _controller: '\Drupal\custom_pdf_generator\Controller\CustomPDFController::generatePdf'
+    _title: 'Generate PDF from JSON'
+  requirements:
+    _permission: 'access content'
+  methods: [GET] 
+
+# custom_pdf_generator.routing.yml
+
+# custom_pdf_generator.generate_pdf:
+#   path: '/custom-pdf'
+#   defaults:
+#     _controller: '\Drupal\custom_pdf_generator\Controller\CustomPDFController::generatePdf'
+#     _title: 'Generate PDF'
+#   requirements:
+#     _permission: 'access content'
+#   methods: [GET] 
